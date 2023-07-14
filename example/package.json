@@ -11,8 +11,7 @@
   },
   "dependencies": {
     "react": "../node_modules/react",
-    "react-native": "../node_modules/react-native",
-    "seed-ts": "../"
+    "react-native": "../node_modules/react-native"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
