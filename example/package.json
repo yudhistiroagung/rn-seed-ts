@@ -1,5 +1,5 @@
 {
-  "name": "example",
+  "name": "seed-ts",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,8 +10,9 @@
     "test": "jest"
   },
   "dependencies": {
-    "react": "18.2.0",
-    "react-native": "0.72.3"
+    "react": "../node_modules/react",
+    "react-native": "../node_modules/react-native",
+    "seed-ts": "../"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

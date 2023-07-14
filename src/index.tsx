@@ -1,6 +1,15 @@
-import * as React from 'react';
+import React from 'react';
+import { TouchableOpacity, Text } from 'react-native';
 
-// Delete me
-export const Thing = () => {
-  return <div>the snozzberries taste like snozzberries</div>;
+export type ButtonProps = {
+  label: string;
+  onClick?: () => void;
+};
+
+export const Button = ({ label, onClick }: ButtonProps) => {
+  return (
+    <TouchableOpacity onPress={onClick}>
+      <Text>{label}</Text>
+    </TouchableOpacity>
+  );
 };
